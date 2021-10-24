@@ -6,6 +6,15 @@ import lombok.Data;
 @Data
 public class Student {
 
+    public Student(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public Student() {
+
+    }
+
     private String name;
 
     private Integer age;

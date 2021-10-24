@@ -1,5 +1,6 @@
 package com.yuwq.spring;
 
+import com.yuwq.spring.common.Klass;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -19,6 +20,8 @@ public class Application {
 //                    + dataSource.getClass().getCanonicalName());
 //            System.exit(-1);
 //        }
+        Klass klass = applicationContext.getBean(Klass.class);
+        System.out.println("klass is :" + klass);
     }
 
 }
