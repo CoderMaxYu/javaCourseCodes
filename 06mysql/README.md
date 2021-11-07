@@ -4,7 +4,7 @@
 https://github.com/CoderMaxYu/javaCourseCodes/blob/main/06mysql/shop_test.sql
 
 
-#07周 作业说明
+# 07周 作业说明
 ### 02 按自己设计的表结构，插入 100 万订单模拟数据，测试不同方式的插入效率
 https://github.com/CoderMaxYu/javaCourseCodes/blob/main/06mysql/src/main/java/com/yuwq/jdbc/PrepareStatementDB.java
 
@@ -12,7 +12,7 @@ https://github.com/CoderMaxYu/javaCourseCodes/blob/main/06mysql/src/main/java/co
 
 https://github.com/CoderMaxYu/javaCourseCodes/tree/main/06mysql/src/main/java/com/yuwq/dynamicdatasource
 
-###10 读写分离 - 数据库框架版本 2.0
+### 10 读写分离 - 数据库框架版本 2.0
 
 
 
