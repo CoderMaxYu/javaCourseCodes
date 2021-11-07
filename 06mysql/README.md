@@ -13,6 +13,7 @@ https://github.com/CoderMaxYu/javaCourseCodes/blob/main/06mysql/src/main/java/co
 https://github.com/CoderMaxYu/javaCourseCodes/tree/main/06mysql/src/main/java/com/yuwq/dynamicdatasource
 
 ### 10 读写分离 - 数据库框架版本 2.0
+https://github.com/CoderMaxYu/javaCourseCodes/tree/main/07shardingjdbc
 
 
 
