@@ -47,9 +47,7 @@ public final class RpcAdvice {
         request.setServiceClass(method.getDeclaringClass().getName());
         request.setMethod(method.getName());
         request.setParams(params);
-
-        RpcfxResponse response = post(request, URL_MAP.get(method.getDeclaringClass()));;
-
+        RpcfxResponse response = post(request, io.kimmking.rpcfx.client.Rpcfx.URL_MAP.get(method.getDeclaringClass()));
         // 这里判断response.status，处理异常
         // 考虑封装一个全局的RpcfxException
 
